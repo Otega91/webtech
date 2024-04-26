@@ -25,11 +25,11 @@
         <div class="left-content">
 		
             <ul class="navigation">
-                <li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+                <li><a href="homepage.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
                 <li><a class="active" href="#">Movie Category</a></li>
                 <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
 		
@@ -53,60 +53,38 @@
 			<label> Email Address : 
 					<input id="email" type="text" name="email">			
 				</label><br><br>
-				<label for="ex">Movie : </label>
+				<label for="ex">Movie List: </label>
 					<select id="movie" name="level" >
 					<option value="">Select a Movie</option>
-					<option value="fate8">POC</option>
-					<option value="fist5">Fist Five</option>
-					<option value="logan">Guardians of galaxy 2</option>
-					<option value="ww">Wonder Woman</option>
-					<option value="cars3">Cars 3</option>
-					<option value="mummy">Mummy</option>
+					<option value="Isoken">Isoken</option>
+					<option value="Judah">A Tribe Called Judah</option>
+					<option value="Amina">Amina</option>
+					<option value="Wife">My Wife and I</option>
+					<option value="Sugar">Sugar Rush</option>
+					<option value="Locked">Locked</option>
 					</select>
-				<label for="ext">Seat: </label>
-					<select id="seat" name="level" >
-					<option value="">Select a Quantity</option>
-					<option value="1">Cabin</option>
-					<option value="2">Balcony</option>
-					<option value="3">Deluxe</option>
-					<option value="4">Special</option>
-					<option value="5">Drescal</option>
-					
-					</select>
-					<label for="ext">Show Time: </label>
-					<select id="showtime" name="level" >
+		
+					<label for="time">Show Time: </label>
+					<select id="showtime" name="show" >
 					<option value="">Select a Time</option>
-					<option value="1">8:00AM</option>
-					<option value="2">12:00PM</option>
-					<option value="3">3:00PM</option>
-					<option value="4">6:00PM</option>
-					<option value="5">9:00PM</option>
+					<option value="1">10:00AM</option>
+					<option value="2">1:00PM</option>
+					<option value="3">2:30PM</option>
+					<option value="4">4:15PM</option>
+					<option value="5">6:05PM</option>
 					
 					</select>
 					<br><br>
-				<p>Payment:
-<label>
-<input id="radio1" type="radio" name="payment" value="yes"/> Esewa
-</label>
-
-<input id="radio" type="radio" name="payment" value="noo"/> Cash on Book
-</label><br>
-</p>
-<br>
-			<label> ID : 
-					<input id="card" type="number" name="card">			
-				</label><br>
+				
 			<label> Amount : 
-					<input id="amount" type="number" name="amount">			
+					<input id="amount" type="num" name="amount">			
 				</label><br>
-				<input type="submit" value="Book Now" />
+				<input type="submit" value="Pay Now" />
 				<br />
-				<p id="errorMessage" class="error">					
-				</p>	
+					
 			</fieldset>			
 		</form>
-		<p id="successMessage" class="success">					
-		</p>
+		
 </div>
 </div>
 
