@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+<title>Book Ticket</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<section class="topmost-bar">
+        <div class="left-content">
+            <input type="text" id="search" placeholder="Search..." onkeyup="search()">
+  <p id="output"></p>
+        </div>
+        <div class="upper-menu">
+            <img src="images/cart.png" alt="" class="cart">
+            <img src="images/help.png" alt="" class="help">
+			<li><a href="LoginForm.html">Sign In</a></li>
+        </div>
+    </section>
+    <section class="top-bar">
+	<h2 class="title">BookNow</h2>
+        <div class="left-content">
+		
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+                <li><a class="active" href="#">Movie Category</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+		
+    </section>
+<div class="l1">
+<form id="form" action="" method="post">	
+			<fieldset>
+				<legend>TICKET BOOKING SYSTEM</legend>	<br><br>			
+				<label> Your Name: 
+					<input id="name1" type="text" name="username">			
+				</label>
+				<label> Surname : 
+					<input id="name2" type="text" name="username">			
+				</label>	<br><br>
+				<label> Location : 
+					<input id="address" type="text" name="address">			
+				</label><br><br>
+				<label> Contact : 
+					<input id="phone" type="number" name="Phone">			
+				</label><br><br>
+			<label> Email Address : 
+					<input id="email" type="text" name="email">			
+				</label><br><br>
+				<label for="ex">Movie : </label>
+					<select id="movie" name="level" >
+					<option value="">Select a Movie</option>
+					<option value="fate8">POC</option>
+					<option value="fist5">Fist Five</option>
+					<option value="logan">Guardians of galaxy 2</option>
+					<option value="ww">Wonder Woman</option>
+					<option value="cars3">Cars 3</option>
+					<option value="mummy">Mummy</option>
+					</select>
+				<label for="ext">Seat: </label>
+					<select id="seat" name="level" >
+					<option value="">Select a Quantity</option>
+					<option value="1">Cabin</option>
+					<option value="2">Balcony</option>
+					<option value="3">Deluxe</option>
+					<option value="4">Special</option>
+					<option value="5">Drescal</option>
+					
+					</select>
+					<label for="ext">Show Time: </label>
+					<select id="showtime" name="level" >
+					<option value="">Select a Time</option>
+					<option value="1">8:00AM</option>
+					<option value="2">12:00PM</option>
+					<option value="3">3:00PM</option>
+					<option value="4">6:00PM</option>
+					<option value="5">9:00PM</option>
+					
+					</select>
+					<br><br>
+				<p>Payment:
+<label>
+<input id="radio1" type="radio" name="payment" value="yes"/> Esewa
+</label>
+
+<input id="radio" type="radio" name="payment" value="noo"/> Cash on Book
+</label><br>
+</p>
+<br>
+			<label> ID : 
+					<input id="card" type="number" name="card">			
+				</label><br>
+			<label> Amount : 
+					<input id="amount" type="number" name="amount">			
+				</label><br>
+				<input type="submit" value="Book Now" />
+				<br />
+				<p id="errorMessage" class="error">					
+				</p>	
+			</fieldset>			
+		</form>
+		<p id="successMessage" class="success">					
+		</p>
+</div>
+</div>
+
+  <section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Menu</h4>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Movie Categories</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="#">Now Showing</a></li>
+            <li><a href="#">Upcoming Movies</a></li>
+            <li><a href="#">Recommended Movies</a></li>
+            <li><a href="#">Cinema</a></li>
+            <li><a href="#">Box Office</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Offers</h4>
+          <ul class="links">
+            <li><a href="#">Rewards</a></li>
+            <li><a href="#">Discounts</a></li>
+            <li><a href="#">Pay Later</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our monthly newsletter for
+            helpful news and information with 
+            exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required>
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+</div>
+<script src="js/bookticket.js"></script>
+</body>
+</html>

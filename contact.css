@@ -1,0 +1,35 @@
+
+
+header {
+    padding: 20px 0;
+	background-color: #333;
+    text-align: center;
+	color: #fff;
+}
+
+
+.box {
+    max-width: 600px;
+	padding: 0 18px;
+    margin: 18px auto;
+}
+
+form label {
+    margin-bottom: 7px;
+}
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+	padding: 7px 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	padding: 12px;
+    width: 100%;
+    margin-bottom: 18px;
+    border-radius: 2px;
+	border: 1px solid #ccc;
+}
+

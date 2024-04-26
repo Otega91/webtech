@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src=""></script>
+    <title>Movie booking</title>
+</head>
+
+<body>
+<section class="topmost-bar">
+        <div class="left-content">
+            <input type="text" id="search" placeholder="Search..." onkeyup="search()">
+  <p id="output"></p>
+        </div>
+        <div class="upper-menu">
+            <img src="images/cart.png" alt="" class="cart">
+            <img src="images/help.png" alt="" class="help">
+			<li><a href="index.html">Sign Out</a></li>
+        </div>
+    </section>
+    <section class="top-bar">
+	<h2 class="title">BookNow</h2>
+        <div class="left-content">
+            <ul class="navigation">
+                <li><a class="active" href="homepage.html">Home</a></li>
+				<li><a href="#">About</a></li>
+                <li><a href="#">Movie Category</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="main-container">
+        <div class="movies-container">
+            <div id="slider-wrapper">
+  <div class="inner-wrapper">
+    <input checked type="radio" name="slide" class="control" id="Slide1" />
+    <label for="Slide1" id="s1"></label>
+    <input type="radio" name="slide" class="control" id="Slide2" />
+    <label for="Slide2" id="s2"></label>
+    <input type="radio" name="slide" class="control" id="Slide3" />
+    <label for="Slide3" id="s3"></label>
+    <input type="radio" name="slide" class="control" id="Slide4" />
+    <label for="Slide4" id="s4"></label>
+    <div class="overflow-wrapper">
+      <a class="slide" href=""><img src="images/banner4.jpg"></a>
+      <a class="slide" href=""><img src="images/banner3.jpg"></a>
+      <a class="slide" href=""><img src="images/banner5.jpg"></a>
+      <a class="slide" href=""><img src="images/banner2.jpg"></a>
+    </div>
+  </div>
+</div>	
+
+            <div class="current-movies">
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/isoken.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">Isoken</h3>
+                    <div class="screen-name">
+						<h4>Rated 18</h4>
+						<a href="isoken.html" class="btn">Book Now</a>
+					</div>
+                </div>
+				<div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/wife.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">My Wife & I</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="wife.html" class="btn">Book Now</a>
+					</div>
+                </div>
+				<div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/amina.png" alt="">
+                    </div>
+                    <h3 class="movie-title">Amina</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="amina.html" class="btn">Book Now</a>
+					</div>
+                    
+                </div>
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/trade.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">The Trade</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="trade.html" class="btn">Book Now</a>
+					</div>
+                </div>
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/north.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">Up North</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="north.html" class="btn">Book Now</a>
+					</div>
+                </div>
+            </div>
+			<div class="current-movies">
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/lock.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">Locked</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="locked.html" class="btn">Book Now</a>
+					</div>
+                </div>
+				<div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/sugar.jpeg" alt="">
+                    </div>
+                    <h3 class="movie-title">Sugar Rush</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="rush.html" class="btn">Book Now</a>
+					</div>
+                </div>
+				<div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/ani.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">Anikulapo</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="ani.html" class="btn">Book Now</a>
+					</div>
+                    
+                </div>
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/gold.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">Something Like Gold</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="gold.html" class="btn">Book Now</a>
+					</div>
+                </div>
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="images/judah.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">A Tribe Called Judah</h3>
+                    <div class="screen-name">
+						<h4>Screen : Gold</h4>
+						<a href="judah.html" class="btn">Book Now</a>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Menu</h4>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Movie Categories</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="#">Now Showing</a></li>
+            <li><a href="#">Upcoming Movies</a></li>
+            <li><a href="#">Recommended Movies</a></li>
+            <li><a href="#">Cinema</a></li>
+            <li><a href="#">Box Office</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Offers</h4>
+          <ul class="links">
+            <li><a href="#">Rewards</a></li>
+            <li><a href="#">Discounts</a></li>
+            <li><a href="#">Pay Later</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our monthly newsletter for
+            helpful news and information with 
+            exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required>
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+</body>
+</html> 
