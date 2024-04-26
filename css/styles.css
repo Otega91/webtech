@@ -1,31 +1,4 @@
-/* About Page */
-.about-team {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-  margin-right: 20px;
-}
 
-.about-team img {
-  width: 100%;
-}
-.about-headline {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-}
-
-.about-main-section {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.about-section-wrapper {
-  margin-bottom: 40px;
-}
-.about-headline, .about-main-section{
-  padding: 20px;
-}
 * {
     margin: 0;
     padding: 0;
