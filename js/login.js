@@ -7,6 +7,7 @@
 
       if (mail === Username && pw === Password) {
 		  window.location.href='homepage.html';
+	      alert('Login Successful');
       } else {
         alert('Invalid username or password. Please try again.');
       }
